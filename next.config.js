@@ -18,6 +18,19 @@ const nextConfig = {
   // },
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   images: {},
+
+  // Redirect QR Code
+
+  async redirects() {
+    return [
+      {
+        source: '/qr',
+        destination: '/',
+        permanent: false,
+      },
+    ];
+  },
+
   webpack(config, { isServer }) {
     if (!isServer) {
       // We're in the browser build, so we can safely exclude the sharp module
@@ -41,6 +54,8 @@ const nextConfig = {
         },
       ],
     })
+
+  
 
     // shader support
     config.module.rules.push({
