@@ -26,22 +26,23 @@ const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mo
 export default function Page() {
   return (
     <>
-      <div className='mx-auto flex w-full flex-col flex-wrap items-center md:flex-row  lg:w-4/5'>
+      <div className='mx-auto flex w-full flex-wrap items-center md:flex-row '>
         {/* jumbo */}
-        <div className='flex w-full flex-col items-start justify-center p-12 text-center md:w-2/5 md:text-left'>
+        <div className='flex w-full flex-col items-start justify-center p-12 text-center md:text-left'>
           <p className='w-full uppercase'>DrumCult Presents</p>
-          <h1 className='my-4 text-5xl font-bold leading-tight'>Initiation</h1>
-          <p className='mb-8 text-2xl leading-normal'>A brand new experience for morning joggers and dogwalkers</p>
+          <h1 className='my-4 text-5xl font-bold leading-tight'>Welcome to the DrumCult…</h1>
+          <p className='mb-8 text-2xl leading-normal'>Congratulations, you have completed the first step on the road to enlightenment. Envision a brighter future where we can all live in harmony. Where freedom of expression reigns supreme, irrespective of religion, race, creed or colour. Where we can all be free to dance every night away in unison, as one being. 
+</p>
+<p className='mb-8 text-2xl leading-normal'>Prepare to become an honorary member of the cult and find your equilibrium within the drum.
+</p>
+
+<p className='mb-8 text-2xl leading-normal'>“What actually is the DrumCult?” we hear you cry…</p>
+<p className='mb-8 text-2xl leading-normal'>We are a diverse community of creatives based in Bristol. We organize unforgettable events with breathtaking visuals displays and earthshaking tunes. Our aim is to keep our events inclusive and affordable, whilst supporting up and coming local talent. If you feel you could have anything to contribute, don’t hesitate to get in touch.</p>
+
+<p className='mb-8 text-2xl leading-normal'>See you at our next gathering where you can collect your ceremonial gown and take your first sip from the sacred cup…</p>
         </div>
 
-        <div className='w-full text-center md:w-3/5'>
-          <View className='flex h-96 w-full flex-col items-center justify-center'>
-            <Suspense fallback={null}>
-              <Logo route='/blob' scale={0.6} position={[0, 0, 0]} />
-              <Common />
-            </Suspense>
-          </View>
-        </div>
+      
       </div>
 
       <div className='mx-auto flex w-full flex-col flex-wrap items-center p-12 md:flex-row  lg:w-4/5'>
