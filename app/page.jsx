@@ -47,7 +47,7 @@ export default function Page() {
       <div className='mx-auto flex w-full flex-col flex-wrap items-center p-12 md:flex-row  lg:w-4/5'>
         {/* first row */}
         <div className='relative h-48 w-full py-6 sm:w-1/2 md:my-12 md:mb-40'>
-          <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800'>Events</h2>
+          <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800 font-spacetron'>Events</h2>
           <p className='mb-8 text-gray-600'>INITIATION - 28th Sept 24</p>
           <p className='mb-8 text-gray-600'>jcak fcuks, Matt Scratch, Pscilcyben Laden, </p>
 
@@ -70,7 +70,7 @@ export default function Page() {
           </View>
         </div>
         <div className='w-full p-6 sm:w-1/2'>
-          <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800'>Socials</h2>
+          <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800 font-spacetron'>Socials</h2>
           <p className='mb-8 text-gray-600'>
            TikTok Logo, FB Logo, Insta Logo - look at carousels
           </p>
