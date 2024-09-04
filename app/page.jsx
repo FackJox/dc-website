@@ -48,10 +48,11 @@ export default function Page() {
         {/* first row */}
         <div className='relative h-48 w-full py-6 sm:w-1/2 md:my-12 md:mb-40'>
           <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800 font-spacetron'>Events</h2>
-          <p className='mb-8 text-gray-600'>INITIATION - 28th Sept 24</p>
-          <p className='mb-8 text-gray-600'>jcak fcuks, Matt Scratch, Pscilcyben Laden, </p>
-
-        </div>
+          <p className='mb-8 text-gray-600'>INITIATION - 28th Sept 24 - Box7, Bristol</p>
+          <p className='mb-8 text-gray-600'>jcak fcuks, Matt Scratch, Psilocybin Laden, </p>
+          <a href="https://www.skiddle.com" target="_blank" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+    Buy Tickets Now
+  </a>     </div>
         <div className='relative my-12 h-48 w-full py-6 sm:w-1/2 md:mb-40'>
           <View orbit className='relative h-full  sm:h-48 sm:w-full'>
             <Suspense fallback={null}>
