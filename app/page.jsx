@@ -49,8 +49,8 @@ export default function Page() {
         <div className='relative h-48 w-full py-6 sm:w-1/2 md:my-12 md:mb-40'>
           <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800 font-spacetron'>Events</h2>
           <p className='mb-8 text-gray-600'>INITIATION - 28th Sept 24 - Box7, Bristol</p>
-          <p className='mb-8 text-gray-600'>jcak fcuks, Matt Scratch, Psilocybin Laden, </p>
-          <a href="https://www.skiddle.com" target="_blank" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+          <p className='mb-8 text-gray-600'>Headliners: Matt Scratch, Psilocybin Laden, </p>
+          <a href="https://www.skiddle.com/whats-on/Bristol/Box-7/DrumCult-The-Initiation/40037719/" target="_blank" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
     Buy Tickets Now
   </a>     </div>
         <div className='relative my-12 h-48 w-full py-6 sm:w-1/2 md:mb-40'>
@@ -73,8 +73,14 @@ export default function Page() {
         <div className='w-full p-6 sm:w-1/2'>
           <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800 font-spacetron'>Socials</h2>
           <p className='mb-8 text-gray-600'>
-           TikTok Logo, FB Logo, Insta Logo - look at carousels
+          https://www.instagram.com/drum.cult/
+
           </p>
+          <p className='mb-8 text-gray-600'>
+          https://soundcloud.com/drumcultevents
+
+          </p>
+
         </div>
       </div>
     </>
