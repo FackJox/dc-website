@@ -26,7 +26,7 @@ const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mo
 export default function Page() {
   return (
     <>
-      <div className='mx-auto flex w-full flex-wrap items-center md:flex-row '>
+      <div className='mx-auto flex flex-col w-full flex-wrap items-center md:flex-row '>
         {/* jumbo */}
         <div className='flex w-full flex-col items-start justify-center p-12 text-center md:text-left'>
           <h1 className='my-4 text-5xl font-bold leading-tight font-spacetron'>Welcome to the DrumCult…</h1>
@@ -78,6 +78,14 @@ export default function Page() {
           </p>
           <p className='mb-8 text-gray-600'>
           https://soundcloud.com/drumcultevents
+
+          </p>
+          <p className='mb-8 text-gray-600'>
+          https://www.facebook.com/profile.php?id=61565084630406
+
+          </p>
+          <p className='mb-8 text-gray-600'>
+          https://www.tiktok.com/@drum.cult?_t=8pRnCpmIRsG&_r=1
 
           </p>
 
