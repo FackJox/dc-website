@@ -7,6 +7,13 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'spacetron';
+    src: url('/fonts/spacetron.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   html,
   body,
   #root {

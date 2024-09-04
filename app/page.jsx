@@ -29,8 +29,7 @@ export default function Page() {
       <div className='mx-auto flex w-full flex-wrap items-center md:flex-row '>
         {/* jumbo */}
         <div className='flex w-full flex-col items-start justify-center p-12 text-center md:text-left'>
-          <p className='w-full uppercase'>DrumCult Presents</p>
-          <h1 className='my-4 text-5xl font-bold leading-tight'>Welcome to the DrumCult…</h1>
+          <h1 className='my-4 text-5xl font-bold leading-tight font-spacetron'>Welcome to the DrumCult…</h1>
           <p className='mb-8 text-2xl leading-normal'>Congratulations, you have completed the first step on the road to enlightenment. Envision a brighter future where we can all live in harmony. Where freedom of expression reigns supreme, irrespective of religion, race, creed or colour. Where we can all be free to dance every night away in unison, as one being. 
 </p>
 <p className='mb-8 text-2xl leading-normal'>Prepare to become an honorary member of the cult and find your equilibrium within the drum.
